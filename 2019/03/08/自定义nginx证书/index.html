@@ -98,24 +98,25 @@
 
 
 
-  <meta name="description" content="网站描述">
+  <meta name="description" content="自定义证书配置 一、生成证书 1、进入生成证书目录 cd /etc/nginx/ 2、创建服务器私钥，命令会让你输入一个口令：（这里输入一个指定密码，输入两次）   openssl genrsa -des3 -out server.key 1024 3、创建签名请求的证书（CSR）： openssl req -new -key server.key -out server.csr A位置输入CN">
 <meta name="keywords" content="文章加密">
-<meta property="og:type" content="website">
-<meta property="og:title" content="william book">
-<meta property="og:url" content="https://william1125.github.io/categories/jenkins/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="自定义nginx证书">
+<meta property="og:url" content="https://william1125.github.io/2019/03/08/自定义nginx证书/index.html">
 <meta property="og:site_name" content="william book">
-<meta property="og:description" content="网站描述">
+<meta property="og:description" content="自定义证书配置 一、生成证书 1、进入生成证书目录 cd /etc/nginx/ 2、创建服务器私钥，命令会让你输入一个口令：（这里输入一个指定密码，输入两次）   openssl genrsa -des3 -out server.key 1024 3、创建签名请求的证书（CSR）： openssl req -new -key server.key -out server.csr A位置输入CN">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-03-12T09:54:04.178Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="william book">
-<meta name="twitter:description" content="网站描述">
+<meta name="twitter:title" content="自定义nginx证书">
+<meta name="twitter:description" content="自定义证书配置 一、生成证书 1、进入生成证书目录 cd /etc/nginx/ 2、创建服务器私钥，命令会让你输入一个口令：（这里输入一个指定密码，输入两次）   openssl genrsa -des3 -out server.key 1024 3、创建签名请求的证书（CSR）： openssl req -new -key server.key -out server.csr A位置输入CN">
 
 
 
 
 
 
-  <link rel="canonical" href="https://william1125.github.io/categories/jenkins/">
+  <link rel="canonical" href="https://william1125.github.io/2019/03/08/自定义nginx证书/">
 
 
 
@@ -125,7 +126,7 @@
   };
 </script>
 
-  <title>分类: jenkins | william book</title>
+  <title>自定义nginx证书 | william book</title>
   
 
 
@@ -173,7 +174,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -266,7 +267,7 @@
         
         
           
-          <li class="menu-item menu-item-categories menu-item-active">
+          <li class="menu-item menu-item-categories">
 
     
     
@@ -376,92 +377,212 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block category">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>jenkins<small>分类</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
+
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://william1125.github.io/book/2019/03/08/自定义nginx证书/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="william">
+      <meta itemprop="description" content="网站描述">
+      <meta itemprop="image" content="/book/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="william book">
+    </span>
+
+    
+      <header class="post-header">
+
         
-          <a class="post-title-link" href="/book/2019/03/12/jenkins/" itemprop="url">
-            
-              <span itemprop="name">jenkins</span>
-            
-          </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">自定义nginx证书
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-03-12T15:57:01+08:00" content="2019-03-12">
-          03-12
-        </time>
-      </div>
+              
+            
+          </h1>
+        
 
-    </header>
-  </article>
+        <div class="post-meta">
+          <span class="post-time">
 
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-03-08 17:05:12" itemprop="dateCreated datePublished" datetime="2019-03-08T17:05:12+08:00">2019-03-08</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-03-12 17:54:04" itemprop="dateModified" datetime="2019-03-12T17:54:04+08:00">2019-03-12</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p> 自定义证书配置</p>
+<p>一、生成证书</p>
+<p>1、进入生成证书目录</p>
+<p>cd /etc/nginx/</p>
+<p>2、创建服务器私钥，命令会让你输入一个口令：（这里输入一个指定密码，输入两次）  </p>
+<p>openssl genrsa -des3 -out server.key 1024</p>
+<p>3、创建签名请求的证书（CSR）：</p>
+<p>openssl req -new -key server.key -out server.csr</p>
+<p>A位置输入CN，B位置输入服务器IP地址（也可以不输入），其他位置可以为空</p>
+<p>%1、在加载SSL支持的Nginx并使用上述私钥时除去必须的口令：</p>
+<p>cp server.key server.key.org<br>openssl rsa -in server.key.org -out server.key</p>
+<p>5、最后标记证书使用上述私钥和CSR：</p>
+<p>openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt</p>
+<p>二、修改nginx配置文件</p>
+<p>在nginx配置文件中加入下面内容，/etc/nginx为证书实际路径</p>
+<p>server {</p>
+<p>listen 443;</p>
+<p>server_name localhost;</p>
+<p>ssl on; ssl_certificate /etc/nginx/server.crt;</p>
+<p>ssl_certificate_key /etc/nginx/server.key;</p>
+<p>ssl_session_timeout 5m;</p>
+<p>ssl_protocols SSLv2 SSLv3 TLSv1;</p>
+<p>ssl_ciphers ALL:!ADH:!EXPORT56:RC4+RSA:+HIGH:+MEDIUM:+LOW:+SSLv2:+EXP;</p>
+<p>ssl_prefer_server_ciphers on;</p>
+<p>}</p>
+<p>三、测试</p>
+<p>1、重新加载配置<br>systemctl reload nginx</p>
+<p>2、访问地址</p>
+<p><a href="https://IP" target="_blank" rel="noopener">https://IP</a></p>
 
       
     </div>
 
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/book/2019/03/11/java-环境变量/" rel="prev" title="java 环境变量">
+                java 环境变量 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -497,7 +618,7 @@
                 
                   <a href="/book/archives/">
                 
-                    <span class="site-state-item-count">8</span>
+                    <span class="site-state-item-count">6</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -520,7 +641,7 @@
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -677,6 +798,10 @@
 
 
   
+  <script src="/book/js/src/scrollspy.js?v=7.0.1"></script>
+<script src="/book/js/src/post-details.js?v=7.0.1"></script>
+
+
 
   
 
@@ -692,6 +817,8 @@
 
   
 
+
+  
 
 
   
@@ -726,4 +853,4 @@
 </body>
 </html>
 <!-- 页面点击小红心 -->
-<script type="text/javascript" src="/js/src/love.js"></script>
+<script type="text/javascript" src="/js/src/clicklove.js"></script>
