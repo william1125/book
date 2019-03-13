@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[ph test]]></title>
+    <url>%2Fbook%2F2019%2F03%2F13%2Fph-test%2F</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[图片测试]]></title>
+    <url>%2Fbook%2F2019%2F03%2F13%2F%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95%2F</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[nginx]]></title>
     <url>%2Fbook%2F2019%2F03%2F12%2Fnginx%2F</url>
     <content type="text"></content>
